@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <title>Gid Project</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav class="navbar">
+                <div>
+                    <img src="./Passnownow-logo-30th.png" alt="">
+                </div>
+                <div class="list">
+                    <ul>
+                        <li>Home</li>
+                        <li>Class Note</li>
+                        <li>Exam Past Questions</li>
+                        <li>Plans & Payment</li>
+                        <li>Career Counselling</li>
+                        <li>More</li>
+                    </ul>
+                </div>
+                <div class="rd">
+                    <button class="button">LOGIN</button>
+                    <button class="Register">Regsiter</button>
+                    <i class="fab fa-sistrix"></i>
+                </div>
+    
+                <div class="menu">
+                    <i class="fab fa-sistrix"></i>
+                    <i class="fas fa-bars"></i>
+    
+                </div>
+                <div class="dropmenu">
+                    <ul>
+                        <li>Home</li>
+                        <li>Class Note</li>
+                        <li>Exam Past Questions</li>
+                        <li>Plans & Payment</li>
+                        <li>Career Counselling</li>
+                        <li>More</li>
+                        <button>LOGIN</button>
+                        <button>Regsiter</button>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <img class="swiper-slide" src="./Hero-03.webp" />
+            <img class="swiper-slide" src="./Hero-02.webp" />
+            <img class="swiper-slide" src="./Hero-01.webp" />
+        </div>
+        <div class="swiper-button-next slider"></div>
+        <div class="swiper-button-prev slider"></div>
+    </div>
+
+
+    <!-- Second section -->
+    <div>
+
+
+    </div>
+
+    <!-- third section -->
+    <div>
+
+    </div>
+
+    <!-- Start after this -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 4000,
+                disableOnInteraction: false,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+    <script src="./gid.js"></script>
+</body>
+
+</html>
