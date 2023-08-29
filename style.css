@@ -1,7 +1,7 @@
 * {
-    padding: 0;
+    /* padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; */
     scroll-behavior: smooth;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -12,11 +12,7 @@ header {
     align-items: center;
     padding: 0 3rem;
     margin-top: 0rem;
-    /* position: fixed; */
-
-
 }
-
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -24,23 +20,18 @@ header {
     width: 100%;
     max-width: 1200px;
     height: 3rem;
-    /* z-index: 1000; */
-    /* position: absolute; */
 }
-
 .list ul {
     list-style-type: none;
     display: flex;
     gap: 1rem;
 }
-
 .rd {
     display: flex;
     gap: 1rem;
     justify-content: center;
     align-items: center;
 }
-
 .button {
     padding: 10px 20px;
     background-color: whitesmoke;
@@ -48,7 +39,6 @@ header {
     border: .5px solid blue;
     border-radius: 8px;
 }
-
 .Register {
     padding: 10px 20px;
     background-color: rgb(54, 54, 249);
@@ -56,11 +46,9 @@ header {
     border: .5px solid blue;
     border-radius: 8px;
 }
-
 .rd i {
     font-size: 20px;
 }
-
 .dropmenu {
     top: 60px;
     position: absolute;
@@ -71,7 +59,6 @@ header {
     text-align: center;
     height: 0;
 }
-
 .dropmenu.open {
     height: 100vh;
     width: 250px;
@@ -82,29 +69,24 @@ header {
     left: 0;
     z-index: 1000;
 }
-
 .dropmenu .button .Register {
     width: 360px;
 }
-
 .dropmenu li {
     padding: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 .menu {
     font-size: 1.5rem;
     display: none;
     cursor: pointer;
 }
-
 .swiper {
     width: 100%;
     height: 100%;
 }
-
 .swiper-slide {
     text-align: center;
     font-size: 18px;
@@ -113,7 +95,6 @@ header {
     justify-content: center;
     align-items: center;
 }
-
 .swiper-slide img {
     display: block;
     width: 100%;
@@ -407,7 +388,7 @@ h3 {
 
 }
 
-.btn {
+.btn{
     border-radius: 25px;
     height: 50px;
     width: 45%;
@@ -419,6 +400,10 @@ h3 {
     background-color: white;
     font-weight: 300;
 }
+.btn:hover{
+    color: red;
+    border: 2px solid red;
+}
 
 .content {
     margin-right: 1px;
@@ -428,7 +413,253 @@ h3 {
 
 
 
+.h1{
+    text-align: center;
+}
+.d-wrapper h2{
+    line-height: 30px;
+}
+.d-wrapper h5{
+    line-height: 20px
+}
+.d-wrapper .img1 img, .d-wrapper .img2 img{
+    width: 267px;
+    height: 200px;
+}
+.d-wrapper .img1{
+    background: #F2DA6D;
+    box-shadow: 5px 4px 25px rgba(145.08, 195.47, 240.12, 0.05);
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    margin-bottom: 10px;
+}
+.d-wrapper .img2{
+    background: rgba(229, 53, 64, 0.90);
+    box-shadow: 5px 4px 25px rgba(145.08, 195.47, 240.12, 0.05);
+    border-radius: 15px;
+    justify-content: flex-end;
+    align-items: center;
+    display: inline-flex;
+    margin-bottom: 10px;
+}
+.d-wrapper .img3{
+    background: rgba(26, 105, 175, 0.50);
+    box-shadow: 5px 4px 25px rgba(145.08, 195.47, 240.12, 0.05);
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    width: 267px;
+    height: 200px;
+    background-size: cover;
+    background-image: url(./fizkes190500530-removebg-preview-1.webp);
+}
+.but{
+    padding: 3% 5%;
+    border-radius:20px ;
+    border: 2px solid black;
+}
+.but:hover{
+    border: 2px solid red;
+    color: red;
+}
+.d-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+.body2{
+    margin-top: 18%;
+    background-color: rgb(18, 18, 110);
+    color: white;
+    background-image: url(./Vector.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+.review{
+       margin-left:20%;
+       display: flex;
+       gap: 1rem;
+}
+.tho{
+    margin-left:25%;
+    margin-top: -3%;
+    color: #848481;
+}
+.body2{
+    padding: 4% 0% 10% 0%;
+}
+.body2 h4{
+    margin-left:20%;
+    margin-top: 5%;
+}
+.d-wrap h3{
+    text-align: center;
+}
+.d-wraph3{
+    padding-top: 3%
+}
+.d-wrap h1{
+    text-align: center;
+}
+.review img{
+    width: 50px;
+    border-radius: 50px;
+}
+footer{
+      display: flex;
+      justify-content: center;
+      margin-top: 7%;
+}
+.footer{
+    background-color: rgb(30, 30, 179);
+    text-align: center;
+    width: 90%;
+    border-radius: 20px;
+    height: 43vh;
+    color: white;
+    padding: 2%;
+}
 
+.d-input{
+    position: relative;
+    padding: 20px 10px;
+    width: 30%;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10%;
+}
+.boxx .button{
+    left: -110px;
+    background-color: red;
+    border: none;
+    position: relative;
+    padding: 15px 30px;
+    color: white;
+    border-radius: 5px;
+}
+#last{
+    background-color: black;
+    color: white;
+    margin-top:7%;
+}
+.d-first{
+    display: flex;
+    gap: 4rem;
+    padding: 2% 2%;
+}
+.d-icons{
+    width: 20px;
+    display: flex;
+    gap: 1rem;
+}
+hr{
+    width: 95%;
+    position: relative;
+} 
+.pass{
+    text-align: center;
+    margin-top: 3%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.related-links h3:hover{
+    color: red;
+    transition: .5s;
+}
+.related-links a:hover{
+    color: red;
+    transition: .5s;
+}
+.class-notes a:hover{
+    color: red;
+    transition: .5s;
+}
+.Exams a:hover{
+    color: red;
+    transition: .5s;
+}
+.about h4{
+    line-height: 180%;
+}
+@media screen and (max-width:425px){
+    #last{
+        margin-top: 10%;
+    }
+    .boxx .button{
+        margin-left: 80%;
+        padding: 3% 7%;
+        margin-top: 4%;
+    }
+    .footer{
+        height: 55vh;
+        width: 70%;
+        font-size: 10px;
+    }
+    .d-input{
+        width: 50%;
+        padding: 10px 30px;
+    }
+    .d-first{
+        display: inline;
+    }
+    #last{
+        padding: 10%;
+    }
+    .pass{
+        padding: 3%;
+    }
+    .class-notes{
+        margin-top: 20%;
+    }
+    .related-links{
+        margin-top: 20%
+    }
+    .Exams{
+        margin-top: -90%;
+        margin-left: 130px;
+    }
+    .follow-us{
+        margin-top: 20%;
+    }
+    .swiper-button-next,
+.swiper-button-prev {
+    background-color: gray;
+    padding: .5rem;
+    color: white !important;
+}
+button {
+    visibility: visible;
+}
+}
+@media (min-width:426px) and (max-width:768px){
+    .d-first{
+        display: inline;
+        gap: 0rem;
+    }
+    #last{
+        padding: 10%;
+    }
+    .pass{
+        padding: 0%;
+    }
+    .follow-us{
+        margin-top: 0%;
+    }
+    .footer{
+        width: 100%;
+        font-size: 10px;
+    }
+    .d-input{
+        width: 40%;
+    }
+}
 
 @media (max-width: 992px) {
     .list {
